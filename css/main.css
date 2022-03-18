@@ -1,0 +1,194 @@
+body {
+    font-family: Courier;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #151617;
+}
+p {
+    padding: 5px 0 0 0;
+}
+h3 {
+    color: orange;
+}
+h4 {
+    color: green;
+}
+
+
+#wrapper {
+    width: 100%;
+    min-width: 450px;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+#header {
+    float: top-left;
+    height: 75px;
+    width: 100%;
+    padding: 0 0 35px 0;
+    background-color: #151617;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    padding: 75px 0 0 0;
+    font-size: 14px;
+}
+
+#contentliquid {
+    float: left;
+    width: 100%;
+
+}
+
+#content {
+    background: #151617;
+    padding: 5px 10px 5px 10px;
+}
+
+
+#socialmedia {
+    float: right;
+    margin: 25px 5px 0px 0px;
+
+
+}
+#sc1 {
+    padding: 0 10px 0 0;
+}
+
+a {
+    color: #00d8ff;
+}
+a.ex1:visited, a.ex1:link {
+    text-decoration: none;
+}
+a.ex1:hover, a.ex1:active {
+    text-decoration: none;
+    color: green;
+}
+a.ex5:visited, a.ex5:link {
+    text-decoration: underline;
+}
+a.ex5:hover, a.ex5:active {
+    text-decoration: none;
+    color: green;
+}
+a.exm:visited, a.exm:link {
+    text-decoration: none;
+}
+
+span.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 66px;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+
+}
+
+span a {
+    color: #FDD023;
+}
+
+#footer {
+    height: 40px;
+    width: 100%;
+    background: #151617;
+    clear: both;
+    padding: 20px 0 20px 0;
+    font-size: 12px;
+
+}
+.test {
+    background-color: #ffffff;
+}
+h1 {
+    color: green;
+}
+
+
+div {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+}
+
+.red {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+}
+
+.green {
+    background-color: #ddffdd;
+    border-left: 6px solid #04AA6D;
+}
+
+.blue {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+}
+
+
+.yellow {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+}
+
+.grey {
+    background-color: #FDD023;
+    border-left: 6px solid #F2A007;
+}
+.green1 {
+    background-color: #00A693;
+    border-left: 6px solid #00D999;
+}
+
+/* The device with borders */
+.smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+    width: 360px;
+    height: 640px;
+    background: white;
+}
